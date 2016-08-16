@@ -11,7 +11,8 @@
 	$numero=10;
 	//echo "El numero es ".$numero;
 	//echo "El numero es $numero";
-	echo 'El numero es $numero';
+	//echo 'El numero es $numero';
+	echo "El cambio";
 ?>
 </body>
 </html>
