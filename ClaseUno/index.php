@@ -130,7 +130,7 @@
 	echo "Numeros ImPar: ".$impar."<br><br>";
 
 	//echo "Numeros Uno: ".$Uno."<br>";
-	echo "Numeros Uno: ".$Uno/$vueltas."<br>";
+	echo "Numeros Uno: ".$Uno/100;
 	echo "Numeros Dos: ".$Dos/$vueltas."<br>";
 	echo "Numeros Tres: ".$Tres/$vueltas."<br>";
 	echo "Numeros Cuatro: ".$Cuatro/$vueltas."<br>";
