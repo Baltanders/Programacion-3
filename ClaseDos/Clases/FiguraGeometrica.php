@@ -2,7 +2,7 @@
 /**
 *FiguraGeometrica  
 */
-class FiguraGeometrica
+public class FiguraGeometrica
 {
 /*	
 	function __construct(argument)
@@ -19,32 +19,34 @@ class FiguraGeometrica
 	protected $perimetro;
 	protected $superficie;
 
-	function __construct()
+	public function __construct()
 	{
-		# code...
+		$color='verde';
+		$perimetro=5;
+		$superficie=10;
 	}
 
-	function abstract protected CalcularDatos()
-	{
-
-	}
-
-	function abstract public Dibujar()
+	abstract protected function CalcularDatos()
 	{
 
 	}
 
-	function GetColor()
+	abstract public function  Dibujar()
 	{
 
 	}
-	
-	function SetColor()
-	{
 
+	public function GetColor()
+	{	
+		
 	}
 	
-	function ToString()
+	public function SetColor($colores)
+	{
+		
+	}
+	
+	public function ToString()
 	{
 
 	}
