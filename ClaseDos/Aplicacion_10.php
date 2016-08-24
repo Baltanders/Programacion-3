@@ -22,7 +22,7 @@
 	echo "<br><br>";
 
 	foreach ($lapicera as $indice) {
-		echo "Color :".$indice_value['color']." -Marca :".$indice_value['marca']." -Trazo :".$indice_value['trazo']." -Precio :".$indice_value['precio']." <br>";
+		echo "Color :".$indice['color']." -Marca :".$indice['marca']." -Trazo :".$indice['trazo']." -Precio :".$indice['precio']." <br>";
 		//echo "Color ".$indice_value['color']." <br>";
 		//var_dump($indice_value );
 	}		

@@ -12,7 +12,7 @@ $cantidad=0;
 
 
 
-while ( $suma< 1000) {
+while ( $suma < 1000) {
 
 	$suma= $numero + $suma;
 	
