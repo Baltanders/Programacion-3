@@ -38,12 +38,12 @@ public class FiguraGeometrica
 
 	public function GetColor()
 	{	
-		
+		return this->color;
 	}
 	
 	public function SetColor($colores)
 	{
-		
+		this->color=$colores;
 	}
 	
 	public function ToString()
