@@ -34,15 +34,28 @@
                             Altura: <input type="text" name="rAltura">
                             <input type="submit" value="Calcular">
                         </form>
+                        <?php 
+                           
+                            #var_dump($_REQUEST); /*siempre en mayusculas*/                        
+                            #var_dump($_POST);
+                             if (isset($_POST['rBase'], $_POST['rAltura']))
+                             {
+                                $Base=$_REQUEST['rBase'];
+                                $Altura=$_REQUEST['rAltura'];
+                                $sup=$Altura*$Base;
+                                echo "<br><p>La superficie del rectangulo es: ".$sup;
+                             }
+                            else
+                            {
+                                echo "<br><p>Primer ingreso";
+                            }
+                        ?>
                         
                     </div>
                 </div>
                 
 				<!-- Article 1 end -->
-                <?php 
-                echo "La superficie del rectangulko es:";
-                var_dump($_REQUEST); /*siempre en mayusculas*/
-                 ?>
+
 
 
 			
