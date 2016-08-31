@@ -1,6 +1,6 @@
 <?php 
 
-var_dump($_REQUEST);
+#var_dump($_REQUEST);
 $cadena=$_REQUEST['mensaje'];
 
 #if (count($cadena) > "5") {
