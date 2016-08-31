@@ -29,12 +29,12 @@
                     
                     <div class="articleBody clear">
                     
-                        <form method="POST">
+                        <form method="POST" action="Destino.php">
                             Base: <input type="text" name="rBase">
                             Altura: <input type="text" name="rAltura">
                             <input type="submit" value="Calcular">
                         </form>
-                        <?php 
+<!--                         <?php 
                            
                             #var_dump($_REQUEST); /*siempre en mayusculas*/                        
                             #var_dump($_POST);
@@ -49,7 +49,7 @@
                             {
                                 echo "<br><p>Primer ingreso";
                             }
-                        ?>
+                        ?> -->
                         
                     </div>
                 </div>
