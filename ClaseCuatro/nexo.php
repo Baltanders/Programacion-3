@@ -7,7 +7,7 @@
 	echo "Accion: $accion";
 
 	header("location:index.php");
-	if ($accion=="Estacionamiento") {
+	if ($accion=="Estacionar") {
 		Estacionamiento::Guardar($patente);
 	}
 

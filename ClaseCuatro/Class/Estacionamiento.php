@@ -2,7 +2,7 @@
 /**
 * 
 */
-public class Estacionamiento
+class Estacionamiento
 {
 	
 	/*function __construct(argument)
@@ -10,8 +10,14 @@ public class Estacionamiento
 		# code...
 	}*/
 
-	stactic function Guardar()
+	public static function Guardar($patente)
 	{
+		echo("<br>llega");
+		$fecha=date("Y-m-d H:i:s");
+		$renglon="$patente"." - $fecha"."\n";
+		$miarchivo=fopen("Estacionado.txt", "a");
+		fwrite($miarchivo, $renglon);
+		fclose($miarchivo);
 
 	}
 
