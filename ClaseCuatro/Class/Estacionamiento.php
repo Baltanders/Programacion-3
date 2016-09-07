@@ -49,7 +49,7 @@ class Estacionamiento
 				$diferencia=strtotime($ahora)-strtotime($inicio);
 				$importe= $diferencia*10;
 				//se guarda en ticket.txt
-				echo "Debe pagar: $importe";
+				echo "Debe pagar: $importe dsadsad";
 			}
 		}
 

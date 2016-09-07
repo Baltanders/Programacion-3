@@ -14,10 +14,9 @@
 	}
 	else
 	{
-		$Listado= array();
-		echo "Accion: $accion <br>";
-		$Listado=Estacionamiento::Sacar($patente);
-		var_dump($Listado);
+		
+		Estacionamiento::Sacar($patente);
+		
 
 
 	}
