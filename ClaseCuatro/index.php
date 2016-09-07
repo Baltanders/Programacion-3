@@ -14,7 +14,7 @@
 			<!--<input type="text" name="color">-->
 			<input type="text" name="patente">
 			<input type="submit" name="accion" class="MiBotonUTNMenuInicio" value="Estacionar">
-			<input type="submit" name="accion" class="MiBotonUTNMenuInicio" value="Salir">
+			<input type="submit" name="accion" class="MiBotonUTNMenuInicio" value="Sacar">
 
 		</form>	
 </div>

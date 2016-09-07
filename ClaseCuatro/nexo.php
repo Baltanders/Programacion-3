@@ -6,7 +6,7 @@
 	//echo "Pantente: $patente <br>";
 	//echo "Accion: $accion";
 
-	//header("location:index.php");
+	
 	if ($accion=="Estacionar") {
 		echo "Pantente: $patente <br>";
 		echo "Accion: $accion";
@@ -16,8 +16,10 @@
 	{
 		$Listado= array();
 		echo "Accion: $accion <br>";
-		$Listado=Estacionamiento::Leer();
+		$Listado=Estacionamiento::Sacar($patente);
 		var_dump($Listado);
 
+
 	}
+	//header("location:index.php");
  ?>

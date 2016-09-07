@@ -39,5 +39,22 @@ class Estacionamiento
 		return $ListadoAutos;
 	}
 
+	public static function Sacar($patente)
+	{
+		$ListadoEstacionados= Estacionamiento::Leer();
+		foreach ($ListadoEstacionados as $auto) {
+			if ($auto[0]==$patente) {
+				$inicio=$auto[1];
+				$ahora=date("Y-m-d H:i:s");
+				$diferencia=strtotime($ahora)-strtotime($inicio);
+				$importe= $diferencia*10;
+				//se guarda en ticket.txt
+				echo "Debe pagar: $importe";
+			}
+		}
+
+	}
+
+
 }
 ?>
