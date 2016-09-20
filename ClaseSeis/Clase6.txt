@@ -1,0 +1,4 @@
+1- Fork del ejemploajax del repositorio de octavio
+2- Clonamos
+3- Modificamos
+4-Push
